@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    margin: 0;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/609/680/desktop-wallpaper-nirvana-logo-iphone-nirvana-smiley-face.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: monospace;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 500px;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px 0 rgba(153, 83, 2, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    text-align: center;
+  }
+
+  img {
+    width: 224px;
+    height: 224px;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 16px;
+    color: lightgray;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: 30px;
+
+  }
+
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .badge {
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgba(153, 83, 2, 0.733);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    transition: box-shadow 0.25s, filter 0.25s;
+
+    &:hover {
+      box-shadow: 0 2px 4px 0 rgba(236, 132, 14, 0.5);
+      filter: brightness(1.25);
+    }
+  }
+
+  .link {
+    color: white;
+    font-weight: 700;
+    transition: color 0.25s;
+
+    &:hover {
+      color: rgba(153, 83, 2, 0.5);
+    }
+  }
